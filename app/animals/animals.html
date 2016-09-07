@@ -1,0 +1,17 @@
+<div class="container">
+
+    <div class="row">
+        <div class="column col-lg-6 col-lg-offset-3">
+
+            <h1>{{title}}</h1>
+
+            <table class="table table-striped table-hover">
+                <tr ng-repeat="(key, resource) in animals">
+                    <td><a href="#/{{key}}">{{ resource.name }}</a></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+</ul>
